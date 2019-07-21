@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="64dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="64dp"
+    android:paddingTop="64dp"
+    tools:context=".Contestent"
+    tools:showIn="@layout/activity_contestent"
+
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="370dp"
+        android:text="Authentication Successful"
+        android:textColor="#674880"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="253dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-condensed"
+        android:text="CANDIDATE 1"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#181717"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="253dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-condensed"
+        android:text="CANDIDATE 2"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#181717"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-5dp"
+
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="253dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-condensed"
+        android:text="CANDIDATE 3"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#181717"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_final"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Final">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="81dp"
+        android:gravity="center"
+        android:text="your vote has been counted. THANKS for your valuable vote!"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <Button
+        android:id="@+id/bu1"
+
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginBottom="91dp"
+        android:background="#8ea9ff"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Logout "
+        android:textAppearance="?android:textAppearanceLarge" />
+
+</RelativeLayout>

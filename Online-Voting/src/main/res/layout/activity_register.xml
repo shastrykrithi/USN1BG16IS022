@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_register"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:background="#5482"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Register"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        tools:ignore="UnusedAttribute" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="147dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="178dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="134dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:text="Register" />
+
+</RelativeLayout>
